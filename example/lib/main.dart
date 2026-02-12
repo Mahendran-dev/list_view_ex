@@ -1,3 +1,4 @@
+import 'package:custom_package/list_user.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,6 +33,7 @@ class _HomepageState extends State<Homepage> {
         title: Text('List View'),
         centerTitle: true,
       ),
+      body: list(),
     );
   }
 }
